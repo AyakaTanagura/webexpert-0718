@@ -1,0 +1,35 @@
+/* css の書き方*/
+/* HTMLでクラスかIDを指定しなければいけない */
+/* id名で指定するときは #id名 {} */
+/* class名で指定するときは .class名 {} */
+/* 上記の形でCSSを書きます */
+
+/* 例）htmlで quiz-image とclass名をつけたimgタグの装飾の仕方 */
+/*
+.quiz-image {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+*/
+
+/* 例）htmlで id="answer_button" とid名をつけたbuttonタグの装飾の仕方 */
+/*
+#answer_button {
+  color: red;
+}
+*/
+
+body {
+  margin: 0;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.quiz-image {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
